@@ -1,0 +1,12 @@
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\bin\Debug\net6.0\Clean-arch.Domain.deps.json
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\bin\Debug\net6.0\Clean-arch.Domain.dll
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\bin\Debug\net6.0\Clean-arch.Domain.pdb
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\Clean-arch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\Clean-arch.Domain.AssemblyInfoInputs.cache
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\Clean-arch.Domain.AssemblyInfo.cs
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\Clean-arch.Domain.csproj.CoreCompileInputs.cache
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\Clean-arch.Domain.sourcelink.json
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\Clean-arch.Domain.dll
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\refint\Clean-arch.Domain.dll
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\Clean-arch.Domain.pdb
+E:\Developer Side\Projects\Asp\CleanArch\Clean-arch.Domain\obj\Debug\net6.0\ref\Clean-arch.Domain.dll

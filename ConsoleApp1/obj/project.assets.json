@@ -1,0 +1,216 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Clean-arch.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clean-arch.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clean-arch.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean-arch.Application.dll": {}
+        }
+      },
+      "Clean-arch.Config/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clean-arch.Infrastructure": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clean-arch.Config.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean-arch.Config.dll": {}
+        }
+      },
+      "Clean-arch.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clean-arch.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clean-arch.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean-arch.Contracts.dll": {}
+        }
+      },
+      "Clean-arch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Clean-arch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean-arch.Domain.dll": {}
+        }
+      },
+      "Clean-arch.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clean-arch.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clean-arch.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean-arch.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Clean-arch.Application/1.0.0": {
+      "type": "project",
+      "path": "../Clean-arch.Application/Clean-arch.Application.csproj",
+      "msbuildProject": "../Clean-arch.Application/Clean-arch.Application.csproj"
+    },
+    "Clean-arch.Config/1.0.0": {
+      "type": "project",
+      "path": "../Clean-arch.Config/Clean-arch.Config.csproj",
+      "msbuildProject": "../Clean-arch.Config/Clean-arch.Config.csproj"
+    },
+    "Clean-arch.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Clean-arch.Contracts/Clean-arch.Contracts.csproj",
+      "msbuildProject": "../Clean-arch.Contracts/Clean-arch.Contracts.csproj"
+    },
+    "Clean-arch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Clean-arch.Domain/Clean-arch.Domain.csproj",
+      "msbuildProject": "../Clean-arch.Domain/Clean-arch.Domain.csproj"
+    },
+    "Clean-arch.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Clean-arch.Infrastructure/Clean-arch.Infrastructure.csproj",
+      "msbuildProject": "../Clean-arch.Infrastructure/Clean-arch.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Clean-arch.Config >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mahan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Developer Side\\Projects\\Asp\\CleanArch\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "E:\\Developer Side\\Projects\\Asp\\CleanArch\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\mahan\\.nuget\\packages\\",
+      "outputPath": "E:\\Developer Side\\Projects\\Asp\\CleanArch\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\Developer Side\\Projects\\Asp\\CleanArch\\Clean-arch.Config\\Clean-arch.Config.csproj": {
+              "projectPath": "E:\\Developer Side\\Projects\\Asp\\CleanArch\\Clean-arch.Config\\Clean-arch.Config.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

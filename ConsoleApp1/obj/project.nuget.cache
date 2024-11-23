@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FGbwY5vscVY=",
+  "success": true,
+  "projectFilePath": "E:\\Developer Side\\Projects\\Asp\\CleanArch\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

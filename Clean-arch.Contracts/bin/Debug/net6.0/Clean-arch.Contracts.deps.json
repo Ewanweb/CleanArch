@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Clean-arch.Contracts/1.0.0": {
+        "dependencies": {
+          "Clean-arch.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Clean-arch.Contracts.dll": {}
+        }
+      },
+      "Clean-arch.Domain/1.0.0": {
+        "runtime": {
+          "Clean-arch.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clean-arch.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clean-arch.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
